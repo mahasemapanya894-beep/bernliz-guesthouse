@@ -1,0 +1,263 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Bernliz Guesthouse | Bokong, Leribe</title>
+
+<style>
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+    font-family:Arial, sans-serif;
+}
+
+body{
+    line-height:1.6;
+    color:#333;
+}
+
+header{
+    background:linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)),
+    url('O1.jpg');
+    background-size:cover;
+    background-position:center;
+    height:100vh;
+    color:white;
+}
+
+nav{
+    display:flex;
+    justify-content:space-between;
+    align-items:center;
+    padding:20px 8%;
+    background:rgba(0,0,0,0.4);
+}
+
+.logo{
+    font-size:28px;
+    font-weight:bold;
+}
+
+nav ul{
+    list-style:none;
+    display:flex;
+}
+
+nav ul li{
+    margin-left:20px;
+}
+
+nav ul li a{
+    color:white;
+    text-decoration:none;
+    font-weight:bold;
+}
+
+.hero{
+    height:85vh;
+    display:flex;
+    flex-direction:column;
+    justify-content:center;
+    align-items:center;
+    text-align:center;
+    padding:20px;
+}
+
+.hero h1{
+    font-size:60px;
+    margin-bottom:20px;
+}
+
+.hero p{
+    font-size:22px;
+    margin-bottom:25px;
+}
+
+.btn{
+    background:#0066cc;
+    color:white;
+    padding:14px 28px;
+    text-decoration:none;
+    border-radius:5px;
+    font-weight:bold;
+}
+
+section{
+    padding:70px 10%;
+}
+
+h2{
+    text-align:center;
+    margin-bottom:30px;
+    color:#0066cc;
+}
+
+.about{
+    text-align:center;
+    max-width:900px;
+    margin:auto;
+}
+
+.rooms{
+    display:grid;
+    grid-template-columns:repeat(auto-fit,minmax(250px,1fr));
+    gap:20px;
+}
+
+.room-card{
+    box-shadow:0 4px 10px rgba(0,0,0,0.1);
+    border-radius:10px;
+    overflow:hidden;
+}
+
+.room-card img{
+    width:100%;
+    height:220px;
+    object-fit:cover;
+}
+
+.room-card h3{
+    padding:15px;
+}
+
+.room-card p{
+    padding:0 15px 20px;
+}
+
+.features{
+    display:grid;
+    grid-template-columns:repeat(auto-fit,minmax(200px,1fr));
+    gap:20px;
+    text-align:center;
+}
+
+.feature{
+    background:#f5f5f5;
+    padding:25px;
+    border-radius:10px;
+}
+
+.contact{
+    background:#0066cc;
+    color:white;
+    text-align:center;
+}
+
+footer{
+    background:#222;
+    color:white;
+    text-align:center;
+    padding:20px;
+}
+</style>
+</head>
+
+<body>
+
+<header>
+    <nav>
+        <div class="logo">Bernliz Guesthouse</div>
+
+        <ul>
+            <li><a href="#about">About</a></li>
+            <li><a href="#rooms">Rooms</a></li>
+            <li><a href="#features">Facilities</a></li>
+            <li><a href="#contact">Contact</a></li>
+        </ul>
+    </nav>
+
+    <div class="hero">
+        <h1>Bernliz Guesthouse</h1>
+        <p>Your Comfortable Home Away From Home in Bokong, Thaba-Tseka</p>
+        <a href="#contact" class="btn">Book Your Stay</a>
+    </div>
+</header>
+
+<section id="about">
+    <h2>About Us</h2>
+    <div class="about">
+        <p>
+            Welcome to Bernliz Guesthouse, located in the beautiful area of
+            Bokong, Leribe, Lesotho. We offer comfortable accommodation,
+            warm hospitality, and a peaceful environment for tourists,
+            business travelers, and families. Experience the beauty of
+            Leribe while enjoying quality service and modern amenities.
+        </p>
+    </div>
+</section>
+
+<section id="rooms">
+    <h2>Our Rooms</h2>
+
+    <div class="rooms">
+
+        <div class="room-card">
+            <img src="r2.jpg" alt="Standard Room">
+            
+        </div>
+
+        <div class="room-card">
+            <img src="r3.png" alt="Deluxe Room">
+           
+        </div>
+
+        <div class="room-card">
+            <img src="r4.png" alt="Family Room">
+            
+        </div>
+        <div class="room-card">
+            <img src="r1.jpg" alt="Family Room">
+            
+        </div>
+
+    </div>
+</section>
+
+<section id="features">
+    <h2>Facilities & Services</h2>
+
+    <div class="features">
+
+        <div class="feature">
+            <h3>Free Wi-Fi</h3>
+            <p>Stay connected throughout your stay.</p>
+        </div>
+
+        <div class="feature">
+            <h3>Secure Parking</h3>
+            <p>Safe and convenient parking for guests.</p>
+        </div>
+
+       
+
+        <div class="feature">
+            <h3>24/7 Support</h3>
+            <p>Friendly staff ready to assist you anytime.</p>
+        </div>
+
+    </div>
+</section>
+
+<section id="contact" class="contact">
+    <h2>Contact Us</h2>
+
+    <p><strong>Bernliz Guesthouse</strong></p>
+    <p>Bokong, Thaba Tseka, Lesotho</p>
+    <p>Phone: +266 58688637/58186106 </p>
+    <p>Email:bernlizguesthouse@gmail.com</p>
+
+    <br>
+
+    <a href="mailto:bernlizguesthouse@gmail.com" class="btn">
+        Send an Email
+    </a>
+</section>
+
+<footer>
+    <p>&copy; 2026 Bernliz Guesthouse. All Rights Reserved.</p>
+</footer>
+
+</body>
+</html>
